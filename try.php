@@ -78,7 +78,6 @@ if (isset($_SESSION['last_activity'])) {
 <?php destroy_session_and_data();
 
         session_start();
-
         // Unset all session variables
         $_SESSION = array();
 

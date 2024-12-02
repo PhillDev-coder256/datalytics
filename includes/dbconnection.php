@@ -26,7 +26,6 @@ if (isset($_SESSION['last_activity'])) {
 <?php destroy_session_and_data();
 
         session_start();
-
         // Unset all session variables
         $_SESSION = array();
 
@@ -69,9 +68,9 @@ if (isset($_SESSION['last_activity'])) {
 
 // DB credentials development
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'db_datalytics');
+define('DB_USER', 'wipedxlj_philldevcoder');
+define('DB_PASS', '4YB]0Q[-##X[tK*');
+define('DB_NAME', 'wipedxlj_datalytics');
 
 
 // Establish database connection.
