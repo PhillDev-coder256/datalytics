@@ -119,9 +119,14 @@ if (isset($_SESSION['last_activity'])) {
 // Establishing a connection to the datbase
 
 // DB credentials development
+// define('DB_HOST', 'localhost');
+// define('DB_USER', 'wipedxlj_philldevcoder');
+// define('DB_PASS', '4YB]0Q[-##X[tK*');
+// define('DB_NAME', 'wipedxlj_datalytics');
+
 define('DB_HOST', 'localhost');
-define('DB_USER', 'wipedxlj_philldevcoder');
-define('DB_PASS', '4YB]0Q[-##X[tK*');
+define('DB_USER', 'root');
+define('DB_PASS', '');
 define('DB_NAME', 'wipedxlj_datalytics');
 
 
